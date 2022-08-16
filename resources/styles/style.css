@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 10px auto;
+  width: 800px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+.CharOverride-5 {
+  font-weight: bold;
+}
+
+.card,
+.cardcolor,
+.cardcolorverde{ 
+  padding: 30px;
+  border: 2px solid #000;
+  margin: 20px auto;
+}
+
+.cardcolor {
+  border: none;
+  background: #D7EAD9;
+  border-radius: 8px;
+}
+
+.cardcolorverde{
+  border: none;
+  background: #8cd8c1;
+  border-radius: 8px;
+}
+
+.CharOverride-3 {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+.CharOverride-10 {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+.glossario {
+  text-decoration: underline;
+}
+
+.titulo,
+.titulo-01,
+.subtitulo {
+  font-size: 42px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 30px;
+}
+.calibre3{
+  color: #009640;;
+}
+
+.subtitulo,
+.titulo-01 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.grid2,
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+.sessoes_do_livro .grid2 {
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sumario {
+  padding: 15px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+.pg {
+  padding: 4px;
+  background: #009640;;
+  display: inline-block;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.sumario ol {
+  margin-left: 20px;
+}
+
+li {
+  line-height: 1.5;
+}
+
+li ol li {
+  margin-left: 10px;
+}
+
+textarea {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table thead {
+  background: #0080c8;
+}
+
+table thead th {
+  color: #fff;
+  padding: 8px;
+  font-size: 18px;
+}
+
+table td {
+  border: 1px solid #0080c8;
+  padding: 3px 8px;
+}
+
+legend {
+  min-width: 300px;
+  max-width: 90%;
+  overflow-x: auto;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.sup1,
+.sup2 {
+  display: inline-block;
+}
+
+.sup2 {
+  display: inline-block;
+  border-top: 1px solid #000;
+}
+
+.sup1::before,
+.sup2::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #000;
+  display: block;
+}
+
+.semireta {
+  display: inline-block;
+  position: relative;
+}
+
+.semireta::before {
+  content: "➝";
+  display: block;
+  position: absolute;
+  top: -12px;
+}
+
+.sup2::before {
+  margin-top: 2px;
+}
+.anexo {
+  background: #0080c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  flex-direction: column;
+  padding: 10px;
+  border-top: 8px solid rgb(241, 135, 22);
+  border-radius: 20px;
+}
+.anexo * {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.destaque,
+.CharOverride-2 {
+  border-bottom: 2px solid #0080c8;
+  margin: 20px 0 20px 0;
+  font-weight: bold;
+}
+
+.titulo-02 {
+  font-weight: bold;
+}
+
+.fat {
+  display: flex;
+}
+
+.fat * {
+  display: block;
+  font-size: 20px;
+}
+
+.esq,
+.dir {
+  padding: 0 10px;
+}
+
+.esq {
+  border-right: 1px solid #000;
+}
+
+.lista li {
+  margin-left: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#botao-regras,
+#botao-box,
+.botao-acao {
+  cursor: pointer;
+}
+#botao-regras:hover,
+#botao-box:hover,
+.botao-acao:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.regras-oculta {
+  display: none;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.grid3 * {
+  font-size: 14px;
+}
+.grid3 h1 {
+  font-size: 18px;
+  color: #0080c8;
+  margin-bottom: 20px;
+}
+.grid3 h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.grid3 h3 {
+  margin-bottom: 10px;
+}
+
+@keyframes showup {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .titulo {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .subtitulo {
+    font-size: 20px;
+  }
+
+  .grid2,
+  .sessoes_do_livro .grid2,
+  .grid3 {
+    grid-template-columns: 1fr !important;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+}
+
+.text-color-green {
+  color: #009640;
+}
+
+
+.card-com-fundo-cinza {
+  padding: 20px;
+  background-color: #F1F1F1;
+  margin: 20px auto;
+}
+
+.card-color-fundo-amarelo-claro{
+  padding: 20px;
+  background-color: #FFF7E2;
+  margin: 20px auto;
+}
+
+.forcar-topo{
+  align-items: flex-start;
+}
+
+

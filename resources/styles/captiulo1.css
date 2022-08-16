@@ -1,0 +1,81 @@
+@import url('style.css');
+
+.text-color-green {
+    color: #009640;
+}
+
+.list-green {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+.list {
+    padding-left: 30px;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.list-green li:before {
+    content: '► ';
+    margin: 0 2px;
+    color: #009640
+        /* cor da bolinha */
+}
+
+.list-order {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.list-order li {
+    color: #009640;
+}
+
+.card-com-fundo {
+    padding: 30px;
+    background-color: #CCEDCD;
+    margin: 20px auto;
+}
+
+.card-com-fundo-cinza {
+    padding: 20px;
+    background-color: #e4e4e3;
+    margin: 20px auto;
+}
+
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid #009640;
+}
+
+
+.table-sem-estilo {
+    border: 0px;
+}
+
+.caixa-texto {
+    background-color: bisque;
+    padding: 10px 30px;
+}
+
+.list-not-style {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.list-not-style li:first-child:before{
+    content: '► ';
+    margin: 0 2px;
+    color: #009640
+}
